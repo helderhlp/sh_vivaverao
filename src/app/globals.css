@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-orange: var(--orange);
+  --color-brown-light: var(--brown-light);
+  --color-sand: var(--sand);
+  --color-blue: var(--blue);
+  --color-sky: var(--sky);
+  --font-family-highgate: var(--font-highgate);
+}
+
+:root {
+  /* variáveis base das novas cores */
+  --orange: #FFD300;
+  --brown-light: #B19A48;
+  --sand: #E3DAC5;
+  --blue: #2336AE;
+  --sky: #3DC1D1;
+}
+
+/* Classe utilitária para a fonte Highgate */
+.font-highgate {
+  font-family: var(--font-highgate);
+}
+
+* {
+  font-family: var(--font-inter);
+}
