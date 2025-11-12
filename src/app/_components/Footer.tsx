@@ -11,7 +11,7 @@ export function Footer() {
         <div className="flex items-center justify-center gap-6">
           {/* LinkedIn */}
           <Link
-            href="https://www.linkedin.com/company/santa-helena"
+            href="https://br.linkedin.com/company/santahelenaalimentos"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-brown-light flex h-14 w-14 items-center justify-center rounded-full transition-all hover:scale-110"
@@ -21,7 +21,7 @@ export function Footer() {
 
           {/* Instagram */}
           <Link
-            href="https://www.instagram.com/santahelenaalimentos"
+            href="https://www.instagram.com/santahelenaalimentos/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-brown-light flex h-14 w-14 items-center justify-center rounded-full transition-all hover:scale-110"

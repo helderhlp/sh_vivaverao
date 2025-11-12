@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import SnacksCrokissimo from '../../../public/assets/snacks-crokissimo.png'
 import SnacksCrokante from '../../../public/assets/snacks-crokante.png'
+import Link from 'next/link'
 
 export function ClassicsHome() {
   return (
@@ -44,9 +45,14 @@ export function ClassicsHome() {
               Sabor e crocância como você nunca viu!
             </p>
 
-            <button className="!font-family-highgate bg-brown-light mt-auto w-full p-2 px-4 text-lg font-black text-white uppercase sm:text-2xl">
+            <Link
+              href="https://www.lojadedoces.com.br/loja/busca.php?loja=1176430&palavra_busca=crokissimo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="!font-family-highgate bg-brown-light mt-auto flex w-full items-center justify-center p-2 px-4 text-center text-lg font-black text-white uppercase transition-opacity hover:opacity-80 sm:text-2xl"
+            >
               EXPERIMENTE CROKÍSSIMO
-            </button>
+            </Link>
           </div>
 
           {/* Right Card - Chokante */}
@@ -67,9 +73,14 @@ export function ClassicsHome() {
               3 Sabores. Docinnn por fora. Crocante por dentro.
             </p>
 
-            <button className="!font-family-highgate bg-brown-light mt-auto w-full p-2 px-4 text-lg font-black text-white uppercase sm:text-2xl">
+            <Link
+              href="https://www.lojadedoces.com.br/loja/busca.php?loja=1176430&palavra_busca=crokissimo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="!font-family-highgate bg-brown-light mt-auto flex w-full items-center justify-center p-2 px-4 text-center text-lg font-black text-white uppercase transition-opacity hover:opacity-80 sm:text-2xl"
+            >
               EXPERIMENTE CHOKANTE
-            </button>
+            </Link>
           </div>
         </div>
       </div>

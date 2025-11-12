@@ -68,7 +68,7 @@ export function SocialNetwork() {
           <div className="flex flex-col items-center gap-2">
             <div className="flex items-center justify-center gap-2">
               <Link
-                href="https://www.tiktok.com/@mendorato"
+                href="https://www.tiktok.com/@mendoratooficial?lang=pt-BR"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange flex h-10 w-10 items-center justify-center rounded-full transition-all hover:scale-110 md:h-10 md:w-10"
@@ -90,7 +90,7 @@ export function SocialNetwork() {
               </Link>
 
               <Link
-                href="https://www.facebook.com/mendorato"
+                href="https://www.facebook.com/Mendorato/?locale=pt_BR"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange flex h-10 w-10 items-center justify-center rounded-full transition-all hover:scale-110 md:h-10 md:w-10"
@@ -99,7 +99,7 @@ export function SocialNetwork() {
               </Link>
 
               <Link
-                href="https://www.instagram.com/mendorato"
+                href="https://www.instagram.com/mendoratooficial/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange flex h-10 w-10 items-center justify-center rounded-full transition-all hover:scale-110"
@@ -115,7 +115,7 @@ export function SocialNetwork() {
           <div className="flex flex-col items-center gap-2">
             <div className="flex items-center justify-center gap-2">
               <Link
-                href="https://www.tiktok.com/@mendorato"
+                href="https://www.tiktok.com/@crokissimo.oficial?lang=pt-BR"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange flex h-10 w-10 items-center justify-center rounded-full transition-all hover:scale-110 md:h-10 md:w-10"
@@ -137,7 +137,7 @@ export function SocialNetwork() {
               </Link>
 
               <Link
-                href="https://www.facebook.com/mendorato"
+                href="https://www.facebook.com/crokissimo/?locale=pt_BR"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange flex h-10 w-10 items-center justify-center rounded-full transition-all hover:scale-110 md:h-10 md:w-10"
@@ -146,7 +146,7 @@ export function SocialNetwork() {
               </Link>
 
               <Link
-                href="https://www.instagram.com/mendorato"
+                href="https://www.instagram.com/crokissimo/?hl=pt"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange flex h-10 w-10 items-center justify-center rounded-full transition-all hover:scale-110"

@@ -25,7 +25,7 @@
         },
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://sh-mendorato.vercel.app https://classicosmendorato.santahelena.com"
+          "value": "https://sh-vivaverao.vercel.app/"
         },
         {
           "key": "Access-Control-Allow-Methods",

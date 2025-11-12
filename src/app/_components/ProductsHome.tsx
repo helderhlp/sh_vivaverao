@@ -6,7 +6,7 @@ import FlagGold from '../../../public/assets/icons/flag-gold.png'
 import KingGold from '../../../public/assets/icons/king-gold.png'
 import StarGold from '../../../public/assets/icons/star-gold.png'
 import Background from '../../../public/assets/pattern/pattern-3.png'
-import { scrollTo } from '@/lib/utils'
+import Link from 'next/link'
 
 export function ProductsHome() {
   return (
@@ -61,12 +61,14 @@ export function ProductsHome() {
         </p>
 
         {/* Call to Action Button */}
-        <button
-          onClick={() => scrollTo('portfolio')}
-          className="bg-brown-light !font-family-highgate mt-4 p-2 px-8 text-lg font-black text-white sm:text-2xl"
+        <Link
+          href="https://www.lojadedoces.com.br/loja/busca.php?loja=1176430&palavra_busca=santa+helena"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-brown-light !font-family-highgate hover:bg-brown-light/80 mt-4 inline-block p-2 px-8 text-lg font-black text-white transition-colors sm:text-2xl"
         >
           VER PORTFÓLIO
-        </button>
+        </Link>
       </div>
     </div>
   )

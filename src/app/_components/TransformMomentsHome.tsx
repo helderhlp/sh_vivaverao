@@ -2,10 +2,10 @@
 
 import Image from 'next/image'
 import Snacks from '../../../public/assets/snacks-mendorato-three.png'
-import { scrollTo } from '@/lib/utils'
 
 import SnackOvinho from '../../../public/assets/snacks-ovinhos.png'
 import SnackSemPele from '../../../public/assets/snacks-sem-pele.png'
+import Link from 'next/link'
 
 export function TransformMomentsHome() {
   return (
@@ -51,13 +51,14 @@ export function TransformMomentsHome() {
           verão brasileiro! Com ele, qualquer momento vira curtição!
         </p>
 
-        {/* Call to Action Button */}
-        <button
-          onClick={() => scrollTo('portfolio')}
-          className="!font-family-highgate text-brown-light mt-4 bg-white p-2 px-4 text-2xl font-black"
+        <Link
+          href="https://www.lojadedoces.com.br/loja/busca.php?loja=1176430&palavra_busca=crokissimo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="!font-family-highgate text-brown-light mt-auto flex w-fit cursor-pointer items-center justify-center bg-white p-2 px-4 text-2xl font-black uppercase transition-opacity hover:opacity-70"
         >
           CONHEÇA OS CLÁSSICOS
-        </button>
+        </Link>
       </div>
 
       <div className="z-10 mt-24 grid w-full max-w-4xl grid-cols-1 gap-8 md:grid-cols-2 lg:gap-12">
@@ -81,9 +82,14 @@ export function TransformMomentsHome() {
             Novos Ovinhos Mendorato, o clássico que vai coroar seus momentos.
           </p>
 
-          <button className="!font-family-highgate bg-brown-light mt-auto w-full p-2 px-4 text-2xl font-black text-white uppercase">
-            CONHEÇA OS clássicos
-          </button>
+          <Link
+            href="https://www.lojadedoces.com.br/loja/busca.php?loja=1176430&palavra_busca=crokissimo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="!font-family-highgate bg-brown-light hover:bg-brown-light/80 mt-auto flex w-full cursor-pointer items-center justify-center p-2 px-4 text-2xl font-black text-white uppercase transition-colors"
+          >
+            CONHEÇA OS CLÁSSICOS
+          </Link>
         </div>
 
         {/* Right Card - Chokante */}
@@ -107,9 +113,14 @@ export function TransformMomentsHome() {
             o Amendoim Sem Pele que já era preferência, agora é referência.
           </p>
 
-          <button className="!font-family-highgate bg-brown-light mt-auto w-full p-2 px-4 text-2xl font-black text-white uppercase">
-            CONHEÇA OS clássicos
-          </button>
+          <Link
+            href="https://www.lojadedoces.com.br/loja/busca.php?loja=1176430&palavra_busca=crokissimo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="!font-family-highgate bg-brown-light hover:bg-brown-light/80 mt-auto flex w-full cursor-pointer items-center justify-center p-2 px-4 text-2xl font-black text-white uppercase transition-colors"
+          >
+            CONHEÇA OS CLÁSSICOS
+          </Link>
         </div>
       </div>
 
