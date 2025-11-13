@@ -3,8 +3,8 @@ import type { NextRequest } from 'next/server'
 
 // Domínios permitidos para CORS
 const allowedOrigins = [
-  'https://sh-mendorato.vercel.app',
-  'https://classicosmendorato.santahelena.com',
+  'https://sh-vivaverao.vercel.app',
+  // 'https://classicosmendorato.santahelena.com',
   'http://localhost:3000',
 ]
 
