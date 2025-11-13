@@ -7,10 +7,7 @@ import Link from 'next/link'
 
 export function ClassicsHome() {
   return (
-    <div
-      className="bg-orange relative z-20 flex w-full flex-col items-center px-4 py-16 md:py-24"
-      id="portfolio"
-    >
+    <div className="bg-orange relative z-20 flex w-full flex-col items-center px-4 py-16 md:py-24">
       <div className="relative z-10 flex w-full max-w-7xl flex-col items-center gap-12">
         {/* Top Text Section */}
         <div className="flex flex-col items-center gap-4 text-center">

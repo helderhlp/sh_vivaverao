@@ -29,7 +29,7 @@ import Image08_02 from "../../../public/assets/cards/08_img 02.png";
 
 export function FlavorHome() {
   return (
-    <div className="bg-orange relative z-20 flex w-full flex-col items-center px-4 py-16 md:py-24">
+    <div id="como-curtir" className="bg-orange relative z-20 flex w-full flex-col items-center px-4 py-16 md:py-24">
       <div className="relative z-10 flex w-full max-w-4xl flex-col items-center gap-8">
         <div className="flex flex-col items-center gap-2">
           <Image src={Vivaverao} alt="Vivaverao" width={600} height={600} />

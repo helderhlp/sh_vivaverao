@@ -12,7 +12,7 @@ export function ProductsHome() {
   return (
     <div
       className="relative z-20 -mt-1 flex w-full flex-col items-center overflow-hidden px-4 py-8 sm:py-16 md:py-24"
-      id="produtos"
+      id="portfolio"
     >
       {/* Background with wavy organic shapes */}
       <div className="absolute inset-0 opacity-80">
