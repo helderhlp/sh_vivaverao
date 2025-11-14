@@ -50,11 +50,11 @@ export function FlavorHome() {
 
           <p className="text-center text-lg leading-relaxed text-white sm:text-xl md:text-2xl">
             Quando o assunto é curtir os dias quentes, o amendoim é presença
-            garantida: tem amendoim japonês, amendoim torrado, doce de
-            amendoim... E Santa Helena está presente em cada um desses momentos,
-            com Mendorato, Crokíssimo, Troféu e muito mais. Seja na praia ou na
-            piscina, com amigos ou família. Onde tem verão, tem petisco Santa
-            Helena e muita curtição.
+            garantida: tem amendoim japonês, sem pele, ovinhos e até amendoim
+            doce. E a Santa Helena está presente em cada um desses momentos com
+            as marcas Mendorato, Crokíssimo e muito mais. Seja na praia, com
+            amigos ou família. Onde tem verão, tem petisco Santa Helena e muita
+            curtição.
           </p>
         </div>
 
