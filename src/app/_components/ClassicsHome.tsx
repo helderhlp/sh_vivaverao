@@ -43,7 +43,7 @@ export function ClassicsHome() {
             </p>
 
             <Link
-              href="https://www.lojadedoces.com.br/loja/busca.php?loja=1176430&palavra_busca=crokissimo"
+              href="https://www.mercadolivre.com.br/loja/santa-helena"
               target="_blank"
               rel="noopener noreferrer"
               className="!font-family-highgate bg-brown-light mt-auto flex w-full items-center justify-center p-2 px-4 text-center text-lg font-black text-white uppercase transition-opacity hover:opacity-80 sm:text-2xl"
@@ -71,7 +71,7 @@ export function ClassicsHome() {
             </p>
 
             <Link
-              href="https://www.lojadedoces.com.br/loja/busca.php?loja=1176430&palavra_busca=crokissimo"
+              href="https://www.mercadolivre.com.br/loja/santa-helena"
               target="_blank"
               rel="noopener noreferrer"
               className="!font-family-highgate bg-brown-light mt-auto flex w-full items-center justify-center p-2 px-4 text-center text-lg font-black text-white uppercase transition-opacity hover:opacity-80 sm:text-2xl"

@@ -52,7 +52,7 @@ export function TransformMomentsHome() {
         </p>
 
         <Link
-          href="https://www.lojadedoces.com.br/loja/busca.php?loja=1176430&palavra_busca=crokissimo"
+          href="https://www.mercadolivre.com.br/loja/santa-helena"
           target="_blank"
           rel="noopener noreferrer"
           className="!font-family-highgate text-brown-light mt-auto flex w-fit cursor-pointer items-center justify-center bg-white p-2 px-4 text-2xl font-black uppercase transition-opacity hover:opacity-70"
@@ -83,7 +83,7 @@ export function TransformMomentsHome() {
           </p>
 
           <Link
-            href="https://www.lojadedoces.com.br/loja/busca.php?loja=1176430&palavra_busca=crokissimo"
+            href="https://www.mercadolivre.com.br/loja/santa-helena"
             target="_blank"
             rel="noopener noreferrer"
             className="!font-family-highgate bg-brown-light hover:bg-brown-light/80 mt-auto flex w-full cursor-pointer items-center justify-center p-2 px-4 text-2xl font-black text-white uppercase transition-colors"
@@ -114,7 +114,7 @@ export function TransformMomentsHome() {
           </p>
 
           <Link
-            href="https://www.lojadedoces.com.br/loja/busca.php?loja=1176430&palavra_busca=crokissimo"
+            href="https://www.mercadolivre.com.br/loja/santa-helena"
             target="_blank"
             rel="noopener noreferrer"
             className="!font-family-highgate bg-brown-light hover:bg-brown-light/80 mt-auto flex w-full cursor-pointer items-center justify-center p-2 px-4 text-2xl font-black text-white uppercase transition-colors"

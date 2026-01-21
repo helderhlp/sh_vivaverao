@@ -62,7 +62,7 @@ export function ProductsHome() {
 
         {/* Call to Action Button */}
         <Link
-          href="https://www.lojadedoces.com.br/loja/busca.php?loja=1176430&palavra_busca=santa+helena"
+          href="https://www.mercadolivre.com.br/loja/santa-helena"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-brown-light !font-family-highgate hover:bg-brown-light/80 mt-4 inline-block p-2 px-8 text-lg font-black text-white transition-colors sm:text-2xl"
